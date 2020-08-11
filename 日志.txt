@@ -1,0 +1,371 @@
+虚拟环境zhangmin1
+python miniimagenet_train_few_shot_SalNet_IntraClass.py -w 5 -s 1
+-----------------------------------------------------------------
+init data folders
+init neural networks
+load foreground encoder success
+load background encoder success
+load mixture network success
+load relation network success
+load vanilla foreground encoder success
+load vanilla background encoder success
+load vanilla mixture network success
+Training...
+/home/hejuncv/miniconda3/envs/zhangmin1/lib/python3.6/site-packages/torch/optim/lr_scheduler.py:122: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+/home/hejuncv/miniconda3/envs/zhangmin1/lib/python3.6/site-packages/torch/nn/functional.py:1351: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Testing...
+test accuracy: 0.5546666666666666 h: 0.012231310916716531
+save networks for episode: 0
+best accuracy: 0.5546666666666666
+episode: 100 loss 0.020807797089219093
+episode: 200 loss 0.08103938400745392
+episode: 300 loss 0.15994828939437866
+episode: 400 loss 0.05039335414767265
+episode: 500 loss 0.08224385231733322
+episode: 600 loss 0.035266052931547165
+episode: 700 loss 0.10775434225797653
+episode: 800 loss 0.06497148424386978
+episode: 900 loss 0.03683893010020256
+episode: 1000 loss 0.1003442257642746
+episode: 1100 loss 0.06230976805090904
+episode: 1200 loss 0.05387398973107338
+episode: 1300 loss 0.14347957074642181
+episode: 1400 loss 0.0737505853176117
+episode: 1500 loss 0.05322146788239479
+episode: 1600 loss 0.04529372230172157
+episode: 1700 loss 0.0781339555978775
+episode: 1800 loss 0.08856773376464844
+episode: 1900 loss 0.0672576054930687
+episode: 2000 loss 0.13412825763225555
+episode: 2100 loss 0.08199821412563324
+episode: 2200 loss 0.06789721548557281
+episode: 2300 loss 0.06908766180276871
+episode: 2400 loss 0.08073414117097855
+episode: 2500 loss 0.05930593982338905
+Testing...
+test accuracy: 0.5524444444444445 h: 0.01225105292788348
+best accuracy: 0.5546666666666666
+episode: 2600 loss 0.07819017767906189
+episode: 2700 loss 0.10648971050977707
+episode: 2800 loss 0.08142364025115967
+episode: 2900 loss 0.07114648818969727
+episode: 3000 loss 0.07185130566358566
+episode: 3100 loss 0.08196491003036499
+episode: 3200 loss 0.05346096679568291
+episode: 3300 loss 0.07264421880245209
+episode: 3400 loss 0.08715631812810898
+episode: 3500 loss 0.07300274074077606
+episode: 3600 loss 0.07956334948539734
+episode: 3700 loss 0.056235674768686295
+episode: 3800 loss 0.050812169909477234
+episode: 3900 loss 0.07268732786178589
+episode: 4000 loss 0.08276020735502243
+episode: 4100 loss 0.030251214280724525
+episode: 4200 loss 0.09616750478744507
+episode: 4300 loss 0.10987839102745056
+episode: 4400 loss 0.09175997972488403
+episode: 4500 loss 0.04078761115670204
+episode: 4600 loss 0.05135845020413399
+episode: 4700 loss 0.09723138809204102
+episode: 4800 loss 0.05383744835853577
+episode: 4900 loss 0.10466773808002472
+episode: 5000 loss 0.08616329729557037
+
+
+
+python miniimagenet_test_few_shot_SalNet_IntraClass.py -w 5 -s
+----------------------------------------------------------------
+init data folders
+init neural networks
+load foreground encoder success
+load background encoder success
+load mixture network success
+load relation network success
+Testing...
+/home/hejuncv/miniconda3/envs/zhangmin1/lib/python3.6/site-packages/torch/nn/functional.py:1351: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+test accuracy: 0.5481555555555555 h: 0.008909037613034939
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5386888888888889 h: 0.008828871142709924
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5399111111111112 h: 0.008753322099526268
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5400444444444444 h: 0.009134311930933975
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5461555555555556 h: 0.008719926108011023
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5403111111111111 h: 0.008891047299265611
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5391555555555556 h: 0.009011887265341752
+best accuracy: 0.5481555555555555 h: 0.008909037613034939
+Testing...
+test accuracy: 0.5483999999999999 h: 0.009283877817979382
+best accuracy: 0.5483999999999999 h: 0.009283877817979382
+Testing...
+test accuracy: 0.5469777777777779 h: 0.008698189518931232
+best accuracy: 0.5483999999999999 h: 0.009283877817979382
+Testing...
+test accuracy: 0.5490444444444444 h: 0.008712680946820591
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.5300444444444444 h: 0.009064859625378884
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.5415111111111112 h: 0.008452185524202535
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.5433333333333333 h: 0.008928181662170818
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.5382444444444445 h: 0.009040423155017872
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.5454 h: 0.008520898714397832
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.541 h: 0.009228717138223576
+best accuracy: 0.5490444444444444 h: 0.008712680946820591
+Testing...
+test accuracy: 0.5499777777777778 h: 0.008789431927123295
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5496 h: 0.009103867093268887
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5396222222222222 h: 0.00916449862913231
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5411999999999999 h: 0.008699008360466604
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5456444444444444 h: 0.009180821714768398
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5380222222222222 h: 0.009171083150018623
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5428000000000001 h: 0.008746079153345875
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5403333333333334 h: 0.008971363334362893
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5402222222222222 h: 0.009062369416818842
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5324888888888889 h: 0.008744776022256656
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5421777777777778 h: 0.009009600532060166
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5439999999999999 h: 0.008863573011168002
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5486222222222222 h: 0.008924397789869115
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5423111111111112 h: 0.009214374013157453
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5364000000000001 h: 0.00945637928842569
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5415777777777777 h: 0.009051390553817821
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5424444444444445 h: 0.00903559275435384
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5489999999999999 h: 0.00896402342413749
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5453555555555556 h: 0.008933169811746711
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5421555555555556 h: 0.008714476381873015
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5457555555555557 h: 0.008796613874077685
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5358444444444445 h: 0.008846737191332112
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5464444444444445 h: 0.008452810764683577
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5376444444444445 h: 0.008474388208277296
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5451777777777778 h: 0.008918455311973456
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5366 h: 0.008959165141628672
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5443111111111112 h: 0.008949394651997141
+best accuracy: 0.5499777777777778 h: 0.008789431927123295
+Testing...
+test accuracy: 0.5535333333333333 h: 0.008938792137499943
+best accuracy: 0.5535333333333333 h: 0.008938792137499943
+Testing...
+
+
+
+python miniimagenet_train_few_shot_SalNet_InterClass.py -w 5 -s 1
+-----------------------------------------------------------------
+init data folders
+init neural networks
+load foreground encoder success
+load background encoder success
+load mixture network success
+load relation network success
+load vanilla foreground encoder success
+load vanilla background encoder success
+load vanilla mixture network success
+Training...
+/home/hejuncv/miniconda3/envs/zhangmin1/lib/python3.6/site-packages/torch/optim/lr_scheduler.py:122: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+/home/hejuncv/miniconda3/envs/zhangmin1/lib/python3.6/site-packages/torch/nn/functional.py:1351: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Testing...
+test accuracy: 0.5696666666666667 h: 0.014199628113682855
+save networks for episode: 0
+best accuracy: 0.5696666666666667
+episode: 100 loss 0.12937931716442108
+episode: 200 loss 0.09509715437889099
+episode: 300 loss 0.07519405335187912
+episode: 400 loss 0.07808078825473785
+episode: 500 loss 0.10671000182628632
+episode: 600 loss 0.10858084261417389
+episode: 700 loss 0.11655054241418839
+episode: 800 loss 0.11681759357452393
+episode: 900 loss 0.06733283400535583
+episode: 1000 loss 0.08902858197689056
+episode: 1100 loss 0.14445002377033234
+episode: 1200 loss 0.055006399750709534
+episode: 1300 loss 0.0821000337600708
+episode: 1400 loss 0.095671646296978
+episode: 1500 loss 0.0889364629983902
+episode: 1600 loss 0.10416902601718903
+episode: 1700 loss 0.10828633606433868
+episode: 1800 loss 0.09167008846998215
+episode: 1900 loss 0.06105472147464752
+episode: 2000 loss 0.05197148025035858
+episode: 2100 loss 0.12702439725399017
+episode: 2200 loss 0.12439194321632385
+episode: 2300 loss 0.04659448564052582
+episode: 2400 loss 0.051131438463926315
+episode: 2500 loss 0.12165254354476929
+Testing...
+test accuracy: 0.5541666666666667 h: 0.013739320076153388
+best accuracy: 0.5696666666666667
+episode: 2600 loss 0.057853713631629944
+episode: 2700 loss 0.12236818671226501
+episode: 2800 loss 0.04634140059351921
+episode: 2900 loss 0.0352986678481102
+episode: 3000 loss 0.12988653779029846
+episode: 3100 loss 0.06388811767101288
+episode: 3200 loss 0.06809745728969574
+episode: 3300 loss 0.09638538956642151
+episode: 3400 loss 0.0813651829957962
+episode: 3500 loss 0.0805332139134407
+episode: 3600 loss 0.10657083243131638
+episode: 3700 loss 0.07959777116775513
+episode: 3800 loss 0.10887878388166428
+episode: 3900 loss 0.04927504435181618
+episode: 4000 loss 0.08511069416999817
+episode: 4100 loss 0.05852362513542175
+episode: 4200 loss 0.10139970481395721
+episode: 4300 loss 0.06338915973901749
+episode: 4400 loss 0.08157655596733093
+episode: 4500 loss 0.05688633397221565
+episode: 4600 loss 0.04862837493419647
+episode: 4700 loss 0.11973176896572113
+episode: 4800 loss 0.04726620018482208
+episode: 4900 loss 0.12894687056541443
+episode: 5000 loss 0.059451714158058167
+Testing...
+test accuracy: 0.5531666666666666 h: 0.014786842206757946
+best accuracy: 0.5696666666666667
+episode: 5100 loss 0.07006995379924774
+episode: 5200 loss 0.11776169389486313
+episode: 5300 loss 0.12634329497814178
+episode: 5400 loss 0.0671568512916565
+episode: 5500 loss 0.08072591572999954
+episode: 5600 loss 0.10146492719650269
+episode: 5700 loss 0.08422364294528961
+episode: 5800 loss 0.10622084140777588
+episode: 5900 loss 0.07242521643638611
+episode: 6000 loss 0.12814652919769287
+episode: 6100 loss 0.06891568750143051
+episode: 6200 loss 0.167800635099411
+episode: 6300 loss 0.07708705961704254
+episode: 6400 loss 0.1000872552394867
+episode: 6500 loss 0.07231246680021286
+episode: 6600 loss 0.07634515315294266
+episode: 6700 loss 0.07285620272159576
+episode: 6800 loss 0.09961911290884018
+episode: 6900 loss 0.062253400683403015
+episode: 7000 loss 0.10249144583940506
+episode: 7100 loss 0.09204399585723877
+episode: 7200 loss 0.10228163003921509
+episode: 7300 loss 0.1416989266872406
+episode: 7400 loss 0.07120568305253983
+episode: 7500 loss 0.11130824685096741
+
+
+
+python miniimagenet_test_few_shot_SalNet_InterClass.py
+-------------------------------------------------------
+init data folders
+init neural networks
+load foreground encoder success
+load background encoder success
+load mixture network success
+load relation network success
+Testing...
+/home/hejuncv/miniconda3/envs/zhangmin1/lib/python3.6/site-packages/torch/nn/functional.py:1351: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+test accuracy: 0.5754444444444444 h: 0.008961610934103205
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.5637111111111112 h: 0.009185604823073599
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.5638666666666667 h: 0.008962417948820614
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.561088888888889 h: 0.009143602454074175
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.5663555555555555 h: 0.009260607376513559
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.5651777777777778 h: 0.009184150780706694
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.5658888888888889 h: 0.009164128057239448
+best accuracy: 0.5754444444444444 h: 0.008961610934103205
+Testing...
+test accuracy: 0.5755111111111111 h: 0.009479526055621369
+best accuracy: 0.5755111111111111 h: 0.009479526055621369
+Testing...
+test accuracy: 0.5763555555555555 h: 0.008871014674387459
+best accuracy: 0.5763555555555555 h: 0.008871014674387459
+Testing...
+test accuracy: 0.5741777777777778 h: 0.009118172890724339
+best accuracy: 0.5763555555555555 h: 0.008871014674387459
+Testing...
+test accuracy: 0.5555333333333333 h: 0.009432481803676528
+best accuracy: 0.5763555555555555 h: 0.008871014674387459
+Testing...
